@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.ts",
+    "desafio1": "nodemon src/desafio-miojo.ts",
+    "desafio2": "nodemon src/desafio-assasino.js",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports"
   },
   "keywords": [],
